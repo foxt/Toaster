@@ -1,5 +1,14 @@
 # Toaster
 The simple and modern toast library for JS
+
+---
+
+# CDN
+
+toaster.js: https://cdn.jsdelivr.net/gh/thelmgn/toaster/toaster.js (minified: https://cdn.jsdelivr.net/gh/thelmgn/toaster/toaster.min.js)
+
+bulma.toaster.js: https://cdn.jsdelivr.net/gh/thelmgn/toaster/styles/bulma.toaster.js (minified: https://cdn.jsdelivr.net/gh/thelmgn/toaster/styles/bulma.toaster.min.js)
+
 # Toaster Documentation
 
 ## 'Toast' class
