@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Toaster</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="toaster.js"></script>
+    <script src="styles/bulma.toaster.js"></script>
+  </head>
+  <body>
+    <h1 class="center">Toaster</h1>
+    <h2 class="center">The simple and modern toast library for JS</h2>
+    <h3 class="center">
+      <a href="https://thelmgn.com">by theLMGN</a> - 
+      <a href="toaster.js" download="toaster.js">Download Toaster</a> -
+      <a href="bulma.toaster.js" download="bulma.toaster.js">Download Bulma Toaster style</a> - <a href="docs/docs.html">Documentation</a> (<a href="docs/docs.md">MD</a> - <a href="docs/docs.pdf">PDF</a>)
+    </h3>
+    <h4>Title</h4>
+    <input id="title" type="text" value="Hello, world!" class="input"></input>
+    <h4>Description</h4>
+    <textarea class="textarea" id="description">This is a demo of Toaster</textarea>
+    <h4>Style</h4>
+    <div class="select">
+      <select class="select is-primary" value="bulma" id="style">
+      <option value="fallback">Fallback</option>
+      <option value="bulma">Bulma</option>
+    </select>
+</div>
+<h4>Bulma Colour</h4>
+<div class="select">
+    <select class="select is-primary" value="primary" id="colour">
+      <option value="">Default</option>
+      <option value="primary">Turquoise</option>
+      <option value="link">Blue</option>
+      <option value="info">Cyan</option>
+      <option value="success">Green</option>
+      <option value="warning">Yellow</option>
+      <option value="danger">Red</option>
+    </select>
+</div>
+    
+    <h4>Timeout</h4>
+    In millis, set to anything less than 1 for a permanant notif
+    <input type="number" class="input" id="timeout" value="5000"></input>
+    <input type="checkbox" id="closable" value="true">
+      User closable
+    </label><br>
+    <button class="button is-primary" id="show">Show!</button><br>
+    <pre><code id="code"></code></pre>
+
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
