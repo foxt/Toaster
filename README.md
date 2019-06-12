@@ -1,6 +1,8 @@
 # Toaster
 The simple and modern toast library for JS
 
+*https://thelmgn.com/Toaster*
+
 ---
 
 # CDN
@@ -8,6 +10,8 @@ The simple and modern toast library for JS
 toaster.js: https://cdn.jsdelivr.net/gh/thelmgn/toaster/toaster.js (minified: https://cdn.jsdelivr.net/gh/thelmgn/toaster/toaster.min.js)
 
 bulma.toaster.js: https://cdn.jsdelivr.net/gh/thelmgn/toaster/styles/bulma.toaster.js (minified: https://cdn.jsdelivr.net/gh/thelmgn/toaster/styles/bulma.toaster.min.js)
+
+---
 
 # Toaster Documentation
 
